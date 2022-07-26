@@ -3,10 +3,8 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
-
 [requires]
 python_version = "3.8"
-
 
 [packages]
 alembic = "==1.0.0"
@@ -101,3 +99,4 @@ twine = "*"
 mock = "==2.0.0"
 pyfakefs = "==3.2"
 pytest-ckan = "*"
+zxcvbn = "*"
